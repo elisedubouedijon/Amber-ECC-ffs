@@ -1,0 +1,14 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Topology of ions for gromacs using ;
+; sigma (nm) and epsilon (kJ/mol)    ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ atomtypes ]
+;name  at.num    mass      charge   ptype   sigma     epsilon
+  Ca_3s 20      40.07800    1.600     A     0.266558  0.50725000 ; 
+  Cl_js 17      35.45300   -0.800     A     0.458893  0.05349200 ; ECC0.8+sigma5% based on JoungCheatham2018 ; for SPC/E
+  K_js  19      39.09830    0.800     A     0.269648  1.79789000 ; ECC0.8+sigma5% based on JoungCheatham 2008 ; for SPC/E
+  Mg_s3 12      24.305      1.600     A     0.13600   3.661000   ;
+  Na_js 11      22.98977    0.800     A     0.205156  1.47545000 ; ECC0.8+sigma5% based on JoungCheatham 2008 ; for SPC/E
+
+

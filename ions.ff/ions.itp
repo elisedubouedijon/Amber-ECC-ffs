@@ -1,0 +1,71 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Topology of ions for gromacs using ;
+; sigma (nm) and epsilon (kJ/mol)    ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;###        CALCIUM               ###;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ moleculetype ]
+; Name   nrexcl
+CA_3s         1
+
+[ atoms ]
+;   nr    type   resnr  residu    atom    cgnr        charge          mass
+     1    Ca_3s      1      CA      CA       1           1.6      40.07800
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;###        CHLORINE              ###;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+[ moleculetype ]
+; Name   nrexcl
+CL_js         1
+; Cl ecc0.8 scaled+sigma5% based on JoungCheatham 2008 for SPC/E
+
+[ atoms ]
+;   nr    type   resnr  residu    atom    cgnr        charge          mass
+     1    Cl_js      1      CL      CL       1          -0.80     35.45300
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;###        POTASSIUM              ###;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ moleculetype ]
+; Name   nrexcl
+K_js         1
+; K ECC0.8+sigma scaled5% based on  JoungCheatham 2008 ; for SPC/E
+
+[ atoms ]
+;   nr    type   resnr  residu    atom    cgnr        charge          mass
+     1    K_js       1       K       K       1           0.80     39.09830
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;###        MAGNESIUM             ###;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ moleculetype ]
+; Name   nrexcl
+MG_s3        1
+
+[ atoms ]
+;   nr    type   resnr  residu    atom    cgnr        charge          mass
+     1    Mg_s3     1      MG      MG       1           1.60       24.305
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;###        SODIUM                ###;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ moleculetype ]
+; Name   nrexcl
+NA_js          1
+; NA ecc0.8 scaled+sigma5% based on JoungCheatham 2008 for SPC/E
+
+[ atoms ]
+;   nr    type   resnr  residu    atom    cgnr        charge          mass
+     1    Na_js      1      NA      NA       1           0.8      22.98977
+
+
