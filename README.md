@@ -1,1 +1,1 @@
-# Amber-ECC
+Gromacs topologies for ECC (scaling 0.8) force field variants for Amber nucleic acid force fields. Developped by J. Puyo-Fourtine and E. Duboué-Dijon. See details in the associated paper "Amber-OL15-ECC: an Amber force field for nucleic acids with improved ion binding properties" by J. Puyo-Fourtine, M. Zgarbova, L. Kantin, P. Jurecka and E. Duboué-Dijon
